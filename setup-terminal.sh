@@ -23,16 +23,16 @@ else
     exit 1
 fi
 
-echo "installing packages"
+echo "\n---installing packages---\n"
 
 sudo pacman -Syu tldr
 sudo pacman -Syu neovim
 
-echo "done installing packages"
+echo "\n---done installing packages---\n"
 
 # Terminal setup
 
-echo "setting up terminal"
+echo "\n---setting up terminal---\n"
 
 ## Install DaddyTime Font
 
@@ -79,28 +79,28 @@ cargo install zellij
 cargo install nu
 cargo install starship
 
-echo "done setting up terminal"
+echo "\n---done setting up terminal---\n"
 
 # Install Better Default Packages
 
-echo "installing better default packages"
+echo "\n---installing better default packages---\n"
 
 cargo install bat
 cargo install du-dust
 cargo install bottom
 cargo install ripgrep
 
-echo "done setting up terminal"
+echo "\n---done setting up terminal---\n"
 
 # Copy Config Files
 
-echo "copying config files"
+echo "\n---copying config files---\n"
 
 ./scripts/setup-mpv.sh
 ./scripts/setup-vifm.sh
 ./scripts/setup-redshift.sh
 
-echo "done copying config files"
+echo "\n---done copying config files---\n"
 
-echo "===DONE==="
+echo "\n\n===DONE==="
 echo "NOTE: you may want to run the setup-github-ssh.sh script"
