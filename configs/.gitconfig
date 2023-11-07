@@ -1,0 +1,12 @@
+[core]
+  editor = vim
+[merge]
+  tool = vimdiff
+  conflictsyle = diff3
+[mergetool]
+  keepBackup = false
+[difftool]
+  promp = false
+[user]
+	name = PraxTube
+	email = lukinator28@gmail.com
