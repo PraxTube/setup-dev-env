@@ -1,0 +1,1495 @@
+hello world
+ls
+whoami
+vifm .
+clear
+du
+top
+clear
+dust
+ls
+cd ..
+cd
+ls
+clear
+ls
+cd ..
+clear
+cd
+cd code/rust/projects/
+ls
+cd vimp
+ls
+git checkout
+git log
+clear
+cd
+cd code/rust/projects/vimp/
+ls
+exa
+exa -lha
+la -lha
+ls -lha
+vim
+clear
+echo hi
+clear
+ls
+vim
+clear
+ls
+hello world
+ls
+clear
+cd
+cd code/rust/projects/mrtui/
+ls
+git status
+git log
+clear
+vim
+nvim
+hel
+cd 
+clear
+zellij 
+clear
+echo hi
+cd 
+cd code/rust/game-dev/ace-of-the-heavens/
+ls
+git status
+ls -lha
+exa -lha
+clear
+ls
+ls -lha
+tldr ls
+clear
+vifm .
+git status
+git diff
+ls
+exa
+exa -lha
+ls -ah
+ls -a
+ls -h
+ls -a
+source ~/.bashrc
+ls | grep h
+clear
+ls
+git status
+clear
+git status
+cd
+clear
+cd
+clear
+vim todo
+ls | where type file
+ls | where type=file
+where
+help
+help where
+ls | where type == file
+ls | where type == dir
+ls | where name =~ Cargo
+clear
+ls
+git diff
+rm todo
+clear
+git status
+git log
+clear
+git diff
+cargo run
+cargo run --release
+clear
+git status
+git log
+git add *
+git commit
+clear
+git push
+cargo clippy
+ls
+clear
+ls
+clear
+echo hi
+zellij
+clear
+ls
+cd
+cd 
+cd code/rust/
+cd game-dev/ace-of-the-heavens/
+git status
+clear
+ls
+cd
+cd .config/nushell/
+ls
+vim history.txt
+vim env.nu
+nvim
+~/Downloads/nvim.appimage
+~/Downloads/nvim.appimage env.nu
+$nu.env
+$env.nu
+$nu.env-path
+~/
+cd .config/nushell/
+~/Dow
+~/Downloads/nvim.appimage
+clear
+ls
+rm -rf nu-0.82.0-x86_64-unknown-linux-gnu/
+clear
+ls
+cd
+cd code/rust/game-dev/ace-of-the-heavens/
+ls
+git status
+clear
+cd
+cd code/rust/game-dev/ace-of-the-heavens/
+cd assets/fonts/
+dogg
+clear
+cd
+cd code/rust/game-dev/ace-of-the-heavens/
+git branch
+clear
+ls
+cd
+cd .config/nushell/
+ls
+vim config.nu
+exit
+nu
+clear
+exit
+cd
+cd .con
+cd .config/nushell/
+clear
+ls
+vim config.nu
+clear
+cat
+bat
+exa
+exa -lha
+ls
+cd
+cd .con
+cd .config/nushell/
+vim config.nu
+ls
+vim .bashrc
+clear
+mrtui
+git status
+git branch
+git
+git branch README.md
+cd
+cd .config/nushell/
+ls
+vim config.nu
+~/Downloads/nvim.appimage config.nu
+git branch
+git checkout README.md
+git README.md
+ls
+cd
+cd code/rust/game-dev/ace-of-the-heavens/
+git assets/
+vim README.md
+clear
+git status
+fg
+cd
+cd code/rust/game-dev/ace-of-the-heavens/
+git branch 
+cargo run 
+clear
+git status 
+git 
+git status 
+git stat
+git status 
+git status
+clear
+fg
+foreground
+fg
+ls
+cd
+git log 
+clear
+ls
+clear
+vim .bashrc
+cd code/rust/game-dev/ace-of-the-heavens/
+~/Downloads/nvim.appimage src/main.rs
+cd
+mkdir -p ~/.config && touch ~/.config/starship.toml<\n>
+mkdir -p ~/.config ; touch ~/.config/starship.toml<\n>
+mkdir ~/.config ; touch ~/.config/starship.toml<\n>
+cd .config/
+ls
+vim starship.toml
+clear
+cd
+cd code/rust/game-dev/ace-of-the-heavens/
+clear
+cd
+clear
+cd .config/
+vim st
+vim starship.toml
+clear
+cd
+cd code/rust/game-dev/ace-of-the-heavens/
+fjkaslf
+clear
+clear
+cd
+cd blog/arch-setup/
+git status
+clear
+cd
+cd .config/nushell/
+ls
+cd
+cd Downloads/
+ls
+vim aliases.nu
+vim config.nu
+vim
+clear
+restart
+start -h
+clear
+ls
+vim
+source config.nu
+ls
+vim
+nivm
+vim aliases.nu
+vim
+fg
+vim config.nu
+vim
+source config.nu
+vim
+clear
+vim 
+vim
+clear
+tldr ls
+vim README.md
+cd
+cd blog/arch-setup/
+vim config.nu
+clear
+source config.nu
+ls
+cat config.nu
+ls
+du
+top
+clear
+fg
+vim README.md
+cd
+cd .config/nushell/
+grep hi
+rg hi
+grep hi
+grep -h
+rg -h
+source config.nu
+grep hi
+rg hi
+clear
+bat config.nu
+source config.nu
+cat config.nu
+cat -h
+cat -V
+bat -V
+source config.nu
+cat -V
+cat -v
+cat --version
+cat config.nu
+source config.nu
+cat config.nu
+catt config.nu
+vim config.nu
+source config.nu
+catt config.nu
+catt -h
+grepp hi
+clear
+vim config.nu
+clear
+clear
+vim README.md
+nu
+vim README.md
+cd
+clear
+cd code/rust/game-dev/ace-of-the-heavens/
+git log --oneline | grep feat
+clear
+cd
+clear
+&& => ;
+clear
+cd blog/arch-setup/
+cargo info nu
+cargo info nushell
+nala show tldr
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ls
+vim setup.sh.save
+clear
+mv setup.sh.save setup.sh
+./setup.sh
+ls -lha
+ls
+exa -lha
+chmod +x setup.sh
+./setup.sh
+fg
+vim setup.sh
+./setup.sh
+cd
+cd /usr/share/fonts/
+ls
+vifm .
+vifm /usr/local/share/fonts/
+vifm /usr/share/fonts/
+curl -h
+cd
+cd Desktop/
+curl -o ~/Desktop/ -L "https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DaddyTimeMono/DaddyTimeMonoNerdFont-Regular.ttf"
+ls
+curl -o ~/Desktop/f.ttf -L "https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DaddyTimeMono/DaddyTimeMonoNerdFont-Regular.ttf"
+ls
+cd /usr/share/fonts
+ls
+rm f.ttf
+curl -o ~/Desktop/DaddyTimeMonoNerdFont-Regular.ttf -L "https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DaddyTimeMono/DaddyTimeMonoNerdFont-Regular.ttf"
+ls
+du
+du
+du -d 1
+rm DaddyTimeMonoNerdFont-Regular.ttf
+curl -L "https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DaddyTimeMono/DaddyTimeMonoNerdFont-Regular.ttf"
+ls
+curl -L "https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DaddyTimeMono/DaddyTimeMonoNerdFont-Regular.ttf" > s.ttf
+curl -L "https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DaddyTimeMono/DaddyTimeMonoNerdFont-Regular.ttf" | s.ttf
+ls
+clear
+ls
+/bin/bash
+cd
+cd Downloads/
+ls
+ln -s
+ln -h
+ln --help
+ln -s 
+ls
+cd
+cd Desktop/
+ls
+ln -s niko.mp4
+ln -s niko.mp4 hello-there
+ls
+mpv hello-there
+rm hello-there
+vim setup.sh
+ls
+cd 
+cd code/
+ls
+mkdir arch
+cd arch/
+mkdir setup-dev-env
+cd setup-dev-env/
+cp ~/.config/nushell/setup.sh setup-terminal.sh
+ls
+vim setup-terminal.sh
+vim README.md
+cd
+clear
+shutdown now
+dogg
+vim .config/dogg/data/garden-work.csv
+clear
+cd
+clear
+cd code/arch/setup-dev-env/
+ls
+vim setup-terminal.sh
+./setup-terminal.sh
+sudo setup-terminal.sh
+sudo ./setup-terminal.sh
+clear
+cd
+cd blog/arch-setup/
+ls
+ls
+clear
+ls
+mkdir configs
+cd configs/
+ls
+cp ~/.config/redshift/redshift.conf r.conf
+mkdir redshift
+mv r.conf redshift/redshift.conf
+ls
+cp ~/.config/mpv/ . -r
+ls
+vifm .
+cp -r ~/.config/vifm/ .
+ls
+vifm .
+cd ..
+mkdir scripts
+if 
+if [ -d vi ]
+if [ -d vi ]; then echo hi;
+tldr cp
+cp -h
+cp --help
+nala show mpv
+cd
+cd .local/share/applications/
+ls
+cd  ..
+ls
+vifm .
+clear
+fg
+cd
+vim .config/autostart/redshift-gtk.desktop
+cp .config/autostart/redshift-gtk.desktop code/arch/
+cd ..
+ls
+mv redshift-gtk.desktop setup-dev-env/configs/redshift/
+cd
+cd .config/
+vim mimeapps.list
+cd
+vim .ssh/config
+cd .ssh
+ls
+ssh-add -h
+ssh-add -K
+clear
+ls
+cd
+vim .bashrc
+ls
+read -p "bla: " a
+read
+open
+/bin/ash
+/bin/bash
+vim .ssh/config
+cd
+cd .config/
+cd
+vim .gitconfig
+ls
+cp ~/.gitconfig configs/
+vim README.md
+vim scripts/setup-vifm.sh
+git init
+clear
+git status
+git add *
+git status
+git commit
+clear
+reboot
+sudo vim .config/redshift/redshift.conf
+echo "; Global settings for redshift<\n>[redshift]<\n>; Set the day and night screen temperatures<\n>temp-day=5000<\n>temp-night=3500<\n><\n>; Disable the smooth fade between temperatures when Redshift starts and stops.<\n>; 0 will cause an immediate change between screen temperatures.<\n>; 1 will gradually apply the new screen temperature over a couple of seconds.<\n>fade=1<\n><\n>; Solar elevation thresholds.<\n>; By default, Redshift will use the current elevation of the sun to determine<\n>; whether it is daytime, night or in transition (dawn/dusk). When the sun is<\n>; above the degrees specified with elevation-high it is considered daytime and<\n>; below elevation-low it is considered night.<\n>;elevation-high=1<\n>;elevation-low=-0<\n><\n>; Custom dawn/dusk intervals.<\n>; Instead of using the solar elevation, the time intervals of dawn and dusk<\n>; can be specified manually. The times must be specified as HH:MM in 24-hour<\n>; format.<\n>dawn-time=7:00-8:00<\n>dusk-time=16:30-17:30<\n><\n>; Set the screen brightness. Default is 1.0.<\n>;brightness=0.8<\n>; It is also possible to use different settings for day and night<\n>; since version 1.8.<\n>brightness-day=0.8<\n>brightness-night=0.7<\n>; Set the screen gamma (for all colors, or each color channel<\n>; individually)<\n>;gamma=0.8<\n>;gamma=0.8:0.7:0.8<\n>; This can also be set individually for day and night since<\n>; version 1.10.<\n>gamma-day=0.9:0.9:0.65<\n>gamma-night=0.8:0.7:0.05<\n><\n>; Set the location-provider: 'geoclue2', 'manual'<\n>; type 'redshift -l list' to see possible values.<\n>; The location provider settings are in a different section.<\n>location-provider=manual<\n><\n>; Set the adjustment-method: 'randr', 'vidmode'<\n>; type 'redshift -m list' to see all possible values.<\n>; 'randr' is the preferred method, 'vidmode' is an older API.<\n>; but works in some cases when 'randr' does not.<\n>; The adjustment method settings are in a different section.<\n><\n>; Configuration of the location-provider:<\n>; type 'redshift -l PROVIDER:help' to see the settings.<\n>; ex: 'redshift -l manual:help'<\n>; Keep in mind that longitudes west of Greenwich (e.g. the Americas)<\n>; are negative numbers.<\n>[manual]<\n>lat=52.5<\n>lon=13.4<\n><\n>; Configuration of the adjustment-method<\n>; type 'redshift -m METHOD:help' to see the settings.<\n>; ex: 'redshift -m randr:help'<\n>; In this example, randr is configured to adjust only screen 0.<\n>; Note that the numbering starts from 0, so this is actually the first screen.<\n>; If this option is not specified, Redshift will try to adjust _all_ screens.<\n>[randr]<\n>screen=0<\n>" > .config/redshift/redshift.conf
+clear
+echo "; Global settings for redshift<\n>[redshift]<\n>; Set the day and night screen temperatures<\n>temp-day=5000<\n>temp-night=3500<\n><\n>; Disable the smooth fade between temperatures when Redshift starts and stops.<\n>; 0 will cause an immediate change between screen temperatures.<\n>; 1 will gradually apply the new screen temperature over a couple of seconds.<\n>fade=1<\n><\n>; Solar elevation thresholds.<\n>; By default, Redshift will use the current elevation of the sun to determine<\n>; whether it is daytime, night or in transition (dawn/dusk). When the sun is<\n>; above the degrees specified with elevation-high it is considered daytime and<\n>; below elevation-low it is considered night.<\n>;elevation-high=1<\n>;elevation-low=-0<\n><\n>; Custom dawn/dusk intervals.<\n>; Instead of using the solar elevation, the time intervals of dawn and dusk<\n>; can be specified manually. The times must be specified as HH:MM in 24-hour<\n>; format.<\n>dawn-time=7:00-8:00<\n>dusk-time=16:30-17:30<\n><\n>; Set the screen brightness. Default is 1.0.<\n>;brightness=0.8<\n>; It is also possible to use different settings for day and night<\n>; since version 1.8.<\n>brightness-day=0.8<\n>brightness-night=0.7<\n>; Set the screen gamma (for all colors, or each color channel<\n>; individually)<\n>;gamma=0.8<\n>;gamma=0.8:0.7:0.8<\n>; This can also be set individually for day and night since<\n>; version 1.10.<\n>gamma-day=0.9:0.9:0.65<\n>gamma-night=0.8:0.7:0.05<\n><\n>; Set the location-provider: 'geoclue2', 'manual'<\n>; type 'redshift -l list' to see possible values.<\n>; The location provider settings are in a different section.<\n>location-provider=manual<\n><\n>; Set the adjustment-method: 'randr', 'vidmode'<\n>; type 'redshift -m list' to see all possible values.<\n>; 'randr' is the preferred method, 'vidmode' is an older API.<\n>; but works in some cases when 'randr' does not.<\n>; The adjustment method settings are in a different section.<\n><\n>; Configuration of the location-provider:<\n>; type 'redshift -l PROVIDER:help' to see the settings.<\n>; ex: 'redshift -l manual:help'<\n>; Keep in mind that longitudes west of Greenwich (e.g. the Americas)<\n>; are negative numbers.<\n>[manual]<\n>lat=52.5<\n>lon=13.4<\n><\n>; Configuration of the adjustment-method<\n>; type 'redshift -m METHOD:help' to see the settings.<\n>; ex: 'redshift -m randr:help'<\n>; In this example, randr is configured to adjust only screen 0.<\n>; Note that the numbering starts from 0, so this is actually the first screen.<\n>; If this option is not specified, Redshift will try to adjust _all_ screens.<\n>[randr]<\n>screen=0<\n>" | .config/redshift/redshift.conf
+/bin/bash
+vim .config/redshift/
+clear
+reboot
+sudo vim .config/redshift/redshift.conf
+reboot
+ls
+mrtui
+clear
+cd code/arch/setup-dev-env/
+git remote add origin git@github.com:PraxTube/setup-dev-env.git
+git push -u origin master
+clear
+cd
+cd set
+cd -
+pwd
+cd ..
+cd
+cd code/rust/game-dev/ace-of-the-heavens/
+cd
+clear
+cd code/arch/setup-dev-env/
+ls
+echo "\nhi\n"
+vim setup-terminal.sh
+fg
+clear
+git diff
+cp ~/.config/redshift/redshift.conf configs/redshift/redshift.conf
+clear
+git status
+git add *
+git commit
+git push
+shutdown now
+dogg
+clear
+mrtui
+clear
+cd website-rancic/
+git pull
+clear
+ls
+clear
+git log
+clear
+sudo nala install apache2
+sudo systemctl start apache2
+clear
+cd /var/www/html/
+ls
+brave-browser index.html
+vim
+git status
+git remote get-url
+git remote get-url origin
+git remote get-url origin | save tmp
+vim tmp
+cd ..
+git clone git@github.com:PraxTube/website-rancic.git<\n>
+sudo git clone git@github.com:PraxTube/website-rancic.git<\n>
+sudo git clone github.com/PraxTube/website-rancic
+clear
+ls
+sudo git clone https://github.com/PraxTube/website-rancic
+clear
+ls
+sudo rm -rf html/
+sudo mv website-rancic/ html
+cd html/
+ls
+vim
+cd
+cd website-rancic/
+clear
+vim .gitignore
+vim setup.sh
+clear
+ls
+git status
+rm tmp
+clear
+sudo ./setup.sh
+ls
+chmod +x setup.sh
+sudo ./setup.sh
+vim setup.sh
+sudo ./setup.sh
+cd
+cd /var/www/html/
+ls
+vim
+cd ..
+ls
+rm -rf html/
+sudo rm -rf html
+ls
+vim setup.sh
+sudo ./setup.sh
+ls
+vim setup.sh
+fg
+clear
+ls
+fg
+ls
+cd html/
+ls
+sudo vim blog/fetch-files.php
+sudo ./setup
+sudo ./setup.sh
+git log
+ls -lha
+ls
+sudo vim blog/fetch-files.php
+sudo vim blog/index.php
+sudo ./setup
+sudo ./setup.sh
+dogg
+vim todo
+vim
+cd
+clear
+cd private/
+vim tasks.md
+git add *
+git commit
+cd
+clear
+exit
+mrtui
+/bin/bash
+cd
+clear
+cd private/
+git add *
+git commit
+cd
+clear
+vim
+cd
+clear
+cd code/arch/setup-dev-env/
+ls
+cd
+cd blog/arch-setup/
+cd
+cd private/
+git remote add origin git@github.com:PraxTube/private.git
+git push -u origin master
+cd
+clear
+mkdir nas/inner/ace/main/backup-luka/
+cp Desktop/niko.mp4 nas/inner/ace/main/backup-luka/
+cp Desktop/github-recovery-codes.txt private/
+cp Desktop/nostr.txt private/
+cp -r aseprite-projects/ nas/inner/ace/main/backup-luka/
+cp -r blog/ nas/inner/ace/main/backup-luka/
+cargo install fcp
+clear
+rm -rf nas/inner/ace/main/backup-luka/blog/
+cd blog/
+ls
+vifm .
+du
+fcp -h
+fcp -r blog/ nas/inner/ace/main/backup-luka/
+fcp blog/ nas/inner/ace/main/backup-luka/
+cd
+clear
+vifm nas/
+clear
+cd code/
+ud
+du
+clear
+cd rust/
+ls
+du
+cd game-dev/
+ls
+rm -rf bevy_ggrs/
+rm -rf matchbox/
+rm -rf rust-ml/
+rm -rf testy/
+clear
+ls
+cd ace-of-the-heavens/
+rm -rf target/
+cd ..
+du
+ls
+rm -rf ggrs
+ls
+du
+du -d 1
+cd bevy-simple-2d-outline/
+ls
+rm -rf target/
+cd ..
+ls
+cd ..
+du -d 1
+cd projects/
+ls
+du -d 1
+cd mrtui/
+rm -rf target/
+du -d 1
+cd ..
+ls
+du -d 1
+rm -rf vimp/target/
+rm -rf audio-rec/target/
+du -d 1
+rm -rf dogg/target/
+cd audio-rec/
+ls
+rm *.wav
+cd ..
+du -d 1
+cd ..
+ls
+cd ..
+ls
+du -d 1
+cd python/
+ls
+du -d 1
+rm -rf Python-3.10.9/
+cd courses/
+ls
+du 
+cd ..
+cd python/
+ls
+echo "*/venv"
+echo $"*/venv"
+rm -rf */venv
+du -d 1
+cd projects/
+ls
+du -d 1
+rm -rf gpt4all/
+du -d 1
+rm -rf chatgpt-cli-forked/
+rm -rf chatgpt-cli/
+du -d 1
+cd VideoPlayer/
+ls
+du -d 1
+cd Videos/
+ls
+mpv Niko1.mp4
+cd ..
+rm -rf Videos/
+cd ../..
+du -d 1
+cd courses/
+ls
+du -d 1
+cd machine-learning/
+ls
+du -d 1
+cd ..
+rm -rf courses/
+ls
+du -d 1
+cd projects/
+du -d 1
+rm -rf InvoiceNet/
+du -d 1
+rm -rf testing-ground/
+cd open-bobj/
+du -d 1
+rm -rf venv/
+du -d 1
+cd ..
+du -d 1
+du ScreenRecorder/ -d 1
+rm -rf ScreenRecorder/venv/
+du -d 1
+rm -rf data-visualization/venv/
+du -d 1
+cd ..
+ls
+cd ..
+du -d 1
+cd
+cd godot_projects/
+ls
+du -d 1
+vim plan.xlsx
+vifm .
+du -d 1
+cd ace-of-the-heavens/
+du -d 1
+cd ..
+cd ShaderTest/
+du -d 1
+vifm .godot/
+clear
+cd
+cd godot_projects/
+du -d 1
+cd
+cd recordings/
+ls
+du -d 1
+vifm .
+cd
+clear
+cd
+cd .config/
+ls
+cd Vieb/
+ls
+cd
+cd code/arch/setup-dev-env/
+clear
+ls
+vim setup-terminal.sh
+./setup-terminal.sh
+sudo ./setup-terminal.sh
+fg
+vim setup-terminal.sh
+/bin/bash
+clear
+fcp code/ nas/inner/ace/main/backup-luka/
+vim test.sh
+chmod +x test.sh
+./test.sh
+vim test.sh
+./test.sh
+clear
+./test.sh
+sudo ./test.sh
+./test.sh
+vim setup-terminal.sh
+sudo ./setup-terminal.sh
+vim setup-terminal.sh
+sudo ./setup-terminal.sh
+vim setup-terminal.sh
+./setup-terminal.sh
+fg
+vim setup-terminal.sh
+./setup-terminal.sh
+clear
+fg
+vim test.sh
+rm test.sh
+vim setup-terminal.sh
+./setup-terminal.sh
+./setup-packages.sh
+chmod +x setup-packages.sh
+./setup-packages.sh
+sudo ./setup-packages.sh
+ls -lha scripts/
+exa -lha scripts/
+chmod +x scripts/*
+exa -lha scripts/
+vim configs/redshift/redshift.conf
+sudo ./setup-packages.sh
+fg
+vim scripts/setup-vifm.sh
+vim scripts/setup-mpv.sh
+sudo ./setup-packages.sh
+vim scripts/setup-vifm.sh
+sudo ./setup-packages.sh
+fg
+vim scripts/setup-vifm.sh
+sudo ./setup-packages.sh
+vim scripts/setup-vifm.sh
+sudo ./setup-packages.sh
+cd
+cd .config/vifm/colors/
+ls
+rm bitcoinorange.vifm
+ls
+vim scripts/setup-vifm.sh
+sudo ./setup-packages.sh
+vim scripts/setup-vifm.sh
+sudo ./setup-packages.sh
+ls
+vim scripts/setup-vifm.sh
+sudo ./setup-packages.sh
+cd ..
+ls
+vim vifmrc
+ls
+vim vifmrc
+cd colors/
+ls
+/bin/bash
+clear
+ls
+vim scripts/setup-vifm.sh
+sudo ./setup-packages.sh
+cd /
+ls
+cd ~
+ls
+cd
+cd /
+ls
+vifm .
+clear
+ls
+vim test.sh
+cd
+ls
+mkdir tmp
+vim test.sh
+clear
+chmod +x test.sh
+clear
+cd tmp/
+ls
+./test.sh
+rm *
+sudo ./test.sh
+vim test.sh
+ls
+rm *
+./test
+./test.sh
+ls
+rm *
+sudo ./test.sh
+ls
+clear
+vim test.sh
+vim setup-packages.sh
+clear
+clear
+cd ..
+rm -rf tmp/
+cd .config/vifm/colors/
+ls
+rm fhsjkfhsnfkjh/
+clear
+./setup-packages.sh
+sudo ./setup-packages.sh
+ls
+cd ..
+cd mpv/
+ls
+cd ..
+cd redshift/
+ls
+cd ..
+vim redshift/redshift.conf
+cd
+clear
+clear
+ls
+rm test.sh
+clear
+vim setup-packages.sh
+vim setup-terminal.sh
+cd
+clear
+clear
+ls
+cd nas/inner/ace/main/backup-luka/
+ls
+vifm code/
+vifm
+clear
+fcp godot_projects/ nas/inner/ace/main/backup-luka/
+cd
+cd code/arch/setup-dev-env/
+ls
+cd configs/
+ls
+mkdir vieb
+cp ~/.config/Vieb/Preferences vieb/
+cp ~/.config/Vieb/windowstate vieb/
+cd
+cd code/arch/setup-dev-env/
+clear
+vim setup-packages.sh
+chmod +x scripts/setup-vieb.sh
+exa -lha scripts/
+ls
+vim setup-packages.sh
+chmod +x scripts/setup-yay.sh
+exa scripts/
+exa scripts/ -lha
+clear
+git status
+git add *
+git commit
+git push
+clear
+vim
+clear
+ls nas/inner/ace/main/backup-luka/
+clear
+fcp recordings/ nas/inner/ace/main/backup-luka/
+dogg
+clear
+ls nas/inner/ace/main/backup-luka/
+vifm nas/inner/ace/main/backup-luka/
+vim README.md
+clear
+dogg
+clear
+php -h
+php -v
+apache2 -h
+sudo nala show php
+nala show php8.1
+sudo nala install php
+clear
+php -v
+cd website-rancic/
+ls
+./setup.sh
+ssh root@hpc
+cd /var/www/html/
+sudo vim blog/fetch-files.php
+mkdir blog/making-a-game-in-bevy/test/
+sudo mkdir blog/making-a-game-in-bevy/test/
+sudo touch blog/making-a-game-in-bevy/test/index.html
+vim blog/index.html
+git add *
+git commit
+cd
+clear
+cd website-rancic/
+ls
+fg
+./set
+./setup.sh
+git diff aoth/help-menu/index.html
+./setup.sh
+vim blog/index.html
+clear
+git status
+git add *
+git commit
+git push
+clear
+git status
+git rm top-bar/
+git status
+git rm todo
+git status
+git commit --amend
+git push --force
+clear
+cd 
+cd work/pyddg/
+cd
+cd .config/
+vim starship.toml
+git diff
+git diff --stat
+clear
+cd
+cd website-rancic/
+clear
+vim index.html
+git reset --hard
+git status
+git log --oneline -n 1
+git log --oneline -n 2
+git checkout 0a6ac99
+git checkout -
+clear
+git log
+clear
+fg
+cd
+clear
+shutdown now
+dogg
+clear
+cd work/pyddg/
+git log
+clear
+git diff
+git add *
+git commit
+git merge develop
+git checkout develop
+git status
+git reset --hard
+clear
+git checkout develop
+git pull
+git checkout -
+clear
+git merge develop
+clear
+git log
+clear
+git rebase -i 5
+git rebase -i HEAD~5
+clear
+git status
+git reset --hard
+clear
+git status
+git rebase --abort
+clear
+git push
+dogg
+clear
+cd
+cd .config/zellij/
+vim config.kdl
+poetry shell
+poetry install
+vim
+clear
+git diff
+clear
+vim examples/blender/visualizing_in_blender/
+git status
+git diff
+git add *
+git log
+git commit
+git commit --amend
+git push
+clear
+dogg
+clear
+/bin/bash
+cd
+clear
+cd website-rancic/
+ls
+cargo new rust
+cd rust/
+ls
+ls -l
+ls -h
+ls lf
+lf -lf
+ls -lf
+ls
+lf -h
+ls -h
+ls -la
+exa -lha
+vifm .
+cd
+cd Desktop/
+ls
+mkdir tmp
+cd tmp/
+cargo new test
+cargo new testy
+ls
+cd testy/
+ls
+ls -a
+cd ..
+git init
+cargo new notesty
+cd notesty/
+ls -a
+vifm .
+cd ..
+cd testy/
+cd 
+cd Desktop/
+rm -rf tmp/
+ls
+clear
+ls
+cd ..
+ls
+cargo run
+vim .gitignore
+git status
+cargo run
+cd ..
+cd blog/
+vim index.html
+cd ..
+vi
+./set
+cd ..
+clear
+vim setup.sh
+./setup.sh
+cargo run
+cd rust/
+cargo run
+sudo cargo run
+ls
+sudo ./target/debug/rust
+cd
+cd /var/www/html/
+ls
+vifm .
+cd ..
+clear
+ls
+vim setup.sh
+./setup.sh
+clear
+./setup.sh
+vim src/main.rs
+vim
+clear
+ls
+cp rust/ ~/Desktop/backuprust
+fcp rust/ ~/Desktop/backuprust
+clear
+cd
+cd Desktop/
+vifm .
+ls
+cargo new rustic
+mv -r rust/src/ rustic/src/
+mv rust/src/ rustic/src/
+clear
+vifm .
+cd rustic
+ls
+mv src/ b
+mv b/src/ src/
+ls
+rmdir b
+clear
+ls
+vifm 
+vim Cargo.toml
+cd
+cd website-rancic/
+clear
+ls
+rm -rf rust/
+ls
+vim setup.sh
+./setup.sh
+clear
+cd rustic/
+carg info scraper
+cargo info scraper
+vim Cargo.toml
+cd
+cd website-rancic/
+./setup.sh
+clear
+git status
+vim .gitignore
+git status
+git add *
+git staus
+git status
+vim .gitignore
+git add *
+git status
+clear
+cd rustic/
+s
+clear
+ls
+vim 
+cd ..
+./setup.sh
+git add *
+git status
+git commit
+clear
+git push
+clear
+cd
+clear
+shutdown nwo
+shutdown now
+dogg
+clear
+cd website-rancic/
+git push
+dogg
+clear
+ssh root@hpc
+clear
+dogg
+clear
+ftimer 9
+forceful
+cd .config/nushell/
+ls
+vim setup.sh
+rm setup.sh
+clear
+echo $PATH
+echo $env.PATH
+echo $env.Path
+echo $env.HOME
+echo "$env.HOME/.local"
+/bin/bash
+echo $env.HOME"/local"
+echo $env.HOME + "/local"
+echo "($env.HOME)"
+with-env
+with-env -h
+/bin/bash
+dogg
+clear
+echo $"hey ($env.PATH)"
+clear
+echo $env.PATH | prepend $"($env.HOME)/.local/bin"
+clear
+vim config.nu
+clear
+ftimer 
+clear
+poetry
+clear
+nu
+vim .bashrc
+clear
+cd website-rancic/
+clear
+rm rustic/src/write_html_file.rs
+cd rustic/
+cargo run
+sudo ./target/debug/rustic
+clear
+sudo ./target/debug/rustic
+vifm .
+clear
+cd /var/www/html/
+ls
+vim blog/toc/toc.html
+./setup.sh
+cd ..
+./setup.sh
+cd /var/www/html
+sudo vim /blog/toc/toc.html
+cd blog/toc/
+cd ../..
+ls
+pwd
+vim blog/index.html
+sudo vim toc.html
+ls
+vifm .
+ls
+fg
+./setup.sh
+cd
+cd .config/nushell/
+ls
+vim config.nu
+nu
+./setup.sh
+dogg
+git status
+clear
+git status
+git add *
+git status
+git commit
+clear
+cd blog/
+ls
+cp dummy/ dummy1
+fcp dummy/ dummy1
+fcp dummy/ dummy2
+fcp dummy/ dummy3
+./styles/
+cd ../..
+./setup.sh
+cd blog/
+fcp making-a-game-in-bevy/ test1
+fcp making-a-game-in-bevy/ test2
+fcp making-a-game-in-bevy/ test3
+../setup.sh
+for 
+vim tmp.sh
+chmod +x tmp.sh
+./tmp.sh
+../setup.sh
+./tmp.sh
+vim tmp.sh
+./tmp.sh
+vim tmp.sh
+./tmp.sh
+vim tmp.sh
+./tmp.sh
+../setup.sh
+git status
+git reset --hard
+git status
+clear
+git status
+rm tmp.sh
+git status
+rm -rf tes*
+ls
+rm -rf est*
+rm -rf dummy*
+clear
+ls
+rm -rf st*
+clear
+git status
+mv toc/ mtemp
+rm -rf t*
+mv mtemp/ toc
+clear
+git status
+git add *
+git staus
+git status
+git restore styles/
+git status
+git restore dummy
+clear
+ls
+git status
+../setup.sh
+cd ..
+clear
+sudo vim blog/index.html
+./setup.sh
+git status
+git add *
+git commit --amend
+git push
+clear
+vim
+cd
+clear
+fg
+clear
+shutdown now
+git status
+cd private/
+git status
+ls
+cd
+cd obs/
+ls
+cd recordings/
+ls
+mpv `2023-11-04 21-33-46.mkv`
+clear
+ndays
+/bin/bash
+clear
+cd
+cd code/arch/setup-dev-env/
+ls
+git log
+clear
+ls
+vifm .
+vim setup-terminal.sh
+vifm .
+vim setup-terminal.sh
+mkdir terminal
+cd terminal/
+cp -r ~/.config/alacritty/ .

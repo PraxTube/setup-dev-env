@@ -10,7 +10,7 @@ if ! [ "$EUID" -ne 0 ]; then
 fi
 
 if ! command -v cargo &> /dev/null; then
-  echo "Rust and Cargo are not installed!"
+  echo "Rust (Cargo) not installed!"
   echo "NOTE: Run curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
   exit 1
 fi
@@ -57,14 +57,15 @@ fi
 
 mkdir -p ~/.config
 
-cp -r alacritty/ ~/.config/alacritty/
-cp -r zellij/ ~/.config/zellij/
-cp -r nushell/ ~/.config/nushell/
-cp starship.toml ~/.config/starship.toml
+cp -r terminal/alacritty/ ~/.config/alacritty/
+cp -r terminal/zellij/ ~/.config/zellij/
+cp -r terminal/nushell/ ~/.config/nushell/
+cp terminal/starship.toml ~/.config/starship.toml
 
-## Copy paste alacritty.desktop
+### Copy paste alacritty.desktop
+
 mkdir -p ~/.local/share/applications/
-cp alacritty.desktop ~/.local/share/applications/
+cp terminal/alacritty.desktop ~/.local/share/applications/
 
 mkdir -p ~/.config/autostart/
 ln -s ~/.local/share/applications/alacritty.desktop ~/.config/autostart/alacritty.desktop
