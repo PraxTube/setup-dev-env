@@ -8,10 +8,15 @@ fi
 
 USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
 
-sudo pacman -Syu mpv
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
 
-mkdir -p ~/.config/mpv/
+echo "\n---building yay---\n"
 
-cp configs/mpv/input.conf $USER_HOME/.config/mpv/input.conf
+cd yay
+makepkg -si
 
-echo "done setting up mpv"
+echo "\n---removing yay build files---\n"
+
+cd ..
+rm -rf yay

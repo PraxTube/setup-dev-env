@@ -6,15 +6,17 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
+USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
+
 sudo pacman -Syu redshift
 
-mkdir -p ~/.config/redshift/
+mkdir -p $USER_HOME/.config/redshift/
 
-cp ../configs/redshift/redshift.conf ~/.config/redshift/redshift.conf
+cp configs/redshift/redshift.conf $USER_HOME/.config/redshift/redshift.conf
 
-mkdir -p ~/.config/autostart/
+mkdir -p $USER_HOME/.config/autostart/
 
-cp ../configs/redshift/redshift-gtk.desktop ~/.config/autostart/redshift-gtk.desktop
+cp configs/redshift/redshift-gtk.desktop $USER_HOME/.config/autostart/redshift-gtk.desktop
 
 echo "done setting up redshift"
 echo "NOTE: depending on redshift, it may auto start mutliple times, better check it"

@@ -4,9 +4,15 @@
 # NOTE: The autostart on boot of alacritty may not work on every Desktop Env
 
 # Check if the script is run with sudo
-if [ "$EUID" -ne 0 ]; then
-    echo "This script must be run with sudo."
+if ! [ "$EUID" -ne 0 ]; then
+    echo "This script must NOT be run with sudo."
     exit 1
+fi
+
+if ! command -v cargo &> /dev/null; then
+  echo "Rust and Cargo are not installed!"
+  echo "NOTE: Run curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+  exit 1
 fi
 
 # Display a warning message
@@ -22,13 +28,6 @@ else
     echo "User canceled. Exiting..."
     exit 1
 fi
-
-echo "\n---installing packages---\n"
-
-sudo pacman -Syu tldr
-sudo pacman -Syu neovim
-
-echo "\n---done installing packages---\n"
 
 # Terminal setup
 
@@ -72,8 +71,6 @@ ln -s ~/.local/share/applications/alacritty.desktop ~/.config/autostart/alacritt
 
 ## Install Terminal
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
 cargo install alacritty
 cargo install zellij
 cargo install nu
@@ -91,16 +88,6 @@ cargo install bottom
 cargo install ripgrep
 
 echo "\n---done setting up terminal---\n"
-
-# Copy Config Files
-
-echo "\n---copying config files---\n"
-
-./scripts/setup-mpv.sh
-./scripts/setup-vifm.sh
-./scripts/setup-redshift.sh
-
-echo "\n---done copying config files---\n"
 
 echo "\n\n===DONE==="
 echo "NOTE: you may want to run the setup-github-ssh.sh script"
