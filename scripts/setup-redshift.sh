@@ -8,7 +8,7 @@ fi
 
 USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
 
-sudo pacman -Syu redshift
+sudo pacman -Syu redshift --noconfirm
 
 mkdir -p $USER_HOME/.config/redshift/
 

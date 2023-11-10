@@ -8,7 +8,7 @@ fi
 
 USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
 
-yay -S vieb-bin
+yay -S vieb-bin --noconfirm
 
 mkdir -p /home/rancic/.config/Vieb
 

@@ -8,7 +8,7 @@ fi
 
 USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
 
-sudo pacman -Syu vifm
+sudo pacman -Syu vifm --noconfirm
 
 mkdir -p $USER_HOME/.config/vifm/colors/
 

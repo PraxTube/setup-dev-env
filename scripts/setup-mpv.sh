@@ -8,7 +8,7 @@ fi
 
 USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
 
-sudo pacman -Syu mpv
+sudo pacman -Syu mpv --noconfirm
 
 mkdir -p ~/.config/mpv/
 
