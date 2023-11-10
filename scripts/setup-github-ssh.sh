@@ -6,7 +6,7 @@ read -p "enter email: " email_address
 
 ssh-keygen -t ed25519 -C "$email_address"
 
-if [ ! -d ~/.ssh/id_github ]; then
+if ! [ -f ~/.ssh/id_github ]; then
   echo "the id name is not id_github"
   exit 1
 fi
@@ -24,6 +24,6 @@ echo "  IdentityFile ~/.ssh/id_github"
 echo "done setting up ssh key for github"
 echo "NOTE: now you need to add the pub key to github"
 
-cp ../configs/.gitconfig ~/.config/.gitconfig
+cp configs/.gitconfig ~/.config/.gitconfig
 
 echo "done setting up .gitconfig"

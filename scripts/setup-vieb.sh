@@ -6,13 +6,11 @@ if ! [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
-
 yay -S vieb-bin --noconfirm
 
 mkdir -p /home/rancic/.config/Vieb
 
-cp configs/vieb/Preferences $USER_HOME/.config/Vieb/Preferences
-cp configs/vieb/windowstate $USER_HOME/.config/Vieb/windowstate
+cp configs/vieb/Preferences ~/.config/Vieb/Preferences
+cp configs/vieb/windowstate ~/.config/Vieb/windowstate
 
 echo "done setting up vieb"

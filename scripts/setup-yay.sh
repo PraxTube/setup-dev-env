@@ -6,8 +6,6 @@ if ! [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
-
 git clone https://aur.archlinux.org/yay.git
 
 echo "\n---building yay---\n"

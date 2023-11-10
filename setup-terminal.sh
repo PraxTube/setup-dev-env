@@ -64,6 +64,7 @@ echo "\n---done setting up terminal---\n"
 echo "\n---installing better default packages---\n"
 
 cargo install bat
+cargo install exa
 cargo install du-dust
 cargo install bottom
 cargo install ripgrep

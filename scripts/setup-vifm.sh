@@ -6,13 +6,11 @@ if ! [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-USER_HOME=$(getent passwd $SUDO_USER | cut -d: -f6)
-
 sudo pacman -Syu vifm --noconfirm
 
-mkdir -p $USER_HOME/.config/vifm/colors/
+mkdir -p ~/.config/vifm/colors/
 
-cp configs/vifm/colors/bitcoinorange.vifm $USER_HOME/.config/vifm/colors/bitcoinorange.vifm
+cp configs/vifm/colors/bitcoinorange.vifm ~/.config/vifm/colors/bitcoinorange.vifm
 
 # Set color theme in config
 echo "color bitcoinorange" >> ~/.config/vifm/vifmrc
