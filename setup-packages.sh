@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Check if the script is run with sudo
-if [ "$EUID" -ne 0 ]; then
-    echo "This script must be run with sudo."
+if ! [ "$EUID" -ne 0 ]; then
+    echo "This script must NOT be run with sudo."
     exit 1
 fi
 
@@ -31,9 +31,10 @@ echo "\n---done installing packages---\n"
 
 # Copy Config Files
 
-
 echo "\n---copying config files---\n"
 
+./scripts/setup-yay.sh
+./scripts/setup-vieb.sh
 ./scripts/setup-mpv.sh
 ./scripts/setup-redshift.sh
 ./scripts/setup-vifm.sh
@@ -44,7 +45,7 @@ echo "\n---done copying config files---\n"
 
 echo "\n---installing daddy time fone---\n"
 
-mkdir -p /usr/local/share/fonts/
+sudo mkdir -p /usr/local/share/fonts/
 
 # URL of the file to download
 url="https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DaddyTimeMono/DaddyTimeMonoNerdFont-Regular.ttf"
@@ -65,10 +66,3 @@ else
 fi
 
 echo "\n---done installing daddy time fone---\n"
-
-echo "---revoke sudo to set up yay and vieb"
-
-sudo -k
-
-./scripts/setup-yay.sh
-./scripts/setup-vieb.sh
