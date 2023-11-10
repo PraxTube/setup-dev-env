@@ -24,8 +24,7 @@ fi
 
 echo "\n---installing packages---\n"
 
-sudo pacman -Syu tldr
-sudo pacman -Syu neovim
+sudo pacman -Syu tldr neovim cmake
 sudo pacman -S --needed git base-devel
 
 echo "\n---done installing packages---\n"
