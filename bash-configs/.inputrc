@@ -1,0 +1,13 @@
+$include /etc/inputrc
+
+# Auto autocompletion
+set completion-ignore-case on
+set show-all-if-ambiguous on
+set menu-complete-display-prefix on
+
+# Vi keybindings
+set editing-mode vi
+set keymap vi
+set show-mode-in-prompt on
+set vi-ins-mode-string "I-"
+set vi-cmd-mode-string "N-"
