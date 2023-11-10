@@ -33,26 +33,6 @@ fi
 
 echo "\n---setting up terminal---\n"
 
-## Install DaddyTime Font
-
-mkdir -p /usr/local/share/fonts/
-
-# URL of the file to download
-url="https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DaddyTimeMono/DaddyTimeMonoNerdFont-Regular.ttf"
-
-# Destination path to save the downloaded file
-destination="/usr/local/share/fonts/DaddyTimeMonoNerdFont-Regular.ttf"
-
-# Download the file using curl
-curl -o "$destination" -L "$url"
-
-# Check the exit status of curl
-if [ $? -eq 0 ]; then
-    echo "Daddy Font successfully donwloaded"
-else
-    echo "ERROR: Failed to download Daddy Font"
-fi
-
 ## Copy paste config files
 
 mkdir -p ~/.config
