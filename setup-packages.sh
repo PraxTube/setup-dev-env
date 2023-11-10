@@ -35,6 +35,7 @@ echo "\n---copying config files---\n"
 
 ./scripts/setup-yay.sh
 ./scripts/setup-vieb.sh
+./scripts/setup-brave.sh
 ./scripts/setup-mpv.sh
 ./scripts/setup-redshift.sh
 ./scripts/setup-vifm.sh
