@@ -26,19 +26,18 @@ echo "\n---installing packages---\n"
 
 sudo pacman -Syu tldr
 sudo pacman -Syu neovim
+sudo pacman -S --needed git base-devel
 
 echo "\n---done installing packages---\n"
 
 # Copy Config Files
 
-./scripts/setup-yay.sh
 
 echo "\n---copying config files---\n"
 
 ./scripts/setup-mpv.sh
 ./scripts/setup-redshift.sh
 ./scripts/setup-vifm.sh
-./scripts/setup-vieb.sh
 
 echo "\n---done copying config files---\n"
 
@@ -67,3 +66,10 @@ else
 fi
 
 echo "\n---done installing daddy time fone---\n"
+
+echo "---revoke sudo to set up yay and vieb"
+
+sudo -k
+
+./scripts/setup-yay.sh
+./scripts/setup-vieb.sh
