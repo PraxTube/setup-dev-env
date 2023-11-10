@@ -10,7 +10,7 @@ The most important feature is of course the terminal. Currently it's missing the
 ```
 sudo pacman -Syu
 git clone https://github.com/PraxTube/setup-dev-env
-./setup-dev-env
+cd setup-dev-env
 ./setup-packages.sh
 ./setup-terminal.sh
 ```
