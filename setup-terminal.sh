@@ -59,6 +59,13 @@ cargo install starship
 
 echo "\n---done setting up terminal---\n"
 
+## Install NvChad
+
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+cp ./nvchad-configs/custom ~/.config/nvim/lua -r
+
+echo "\n---done installing NvChad, open neovim to finish setup---\n"
+
 # Install Better Default Packages
 
 echo "\n---installing better default packages---\n"

@@ -47,6 +47,13 @@ local plugins = {
 
   "tpope/vim-fugitive",
 
+  { "benknoble/vim-mips", lazy = false},
+
+  {
+    "neoclide/coc.nvim",
+    branch = 'release',
+  },
+
   { "ggandor/leap.nvim", lazy = false}
 }
 return plugins

@@ -24,7 +24,7 @@ fi
 
 echo "\n---installing packages---\n"
 
-sudo pacman -Syu tldr neovim cmake --noconfirm
+sudo pacman -Syu tldr neovim cmake xclip less --noconfirm
 sudo pacman -S --needed git base-devel --noconfirm
 
 echo "\n---done installing packages---\n"
@@ -66,4 +66,4 @@ else
     echo "ERROR: Failed to download Daddy Font"
 fi
 
-echo "\n---done installing daddy time fone---\n"
+echo "\n---done installing daddy time font---\n"
