@@ -46,14 +46,13 @@ echo "\n---done copying config files---\n"
 
 echo "\n---installing daddy time fone---\n"
 
-sudo mkdir -p /usr/local/share/fonts/
+sudo mkdir -p /usr/share/fonts/TTF/
 
 # URL of the file to download
 url="https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DaddyTimeMono/DaddyTimeMonoNerdFont-Regular.ttf"
 
 tmp_destination="./tmp-daddy.ttf"
-# Destination path to save the downloaded file
-destination="/usr/local/share/fonts/DaddyTimeMonoNerdFont-Regular.ttf"
+destination="/usr/share/fonts/TTF/DaddyTimeMonoNerdFont-Regular.ttf"
 
 # Download the file using curl
 curl -o "$tmp_destination" -L "$url"

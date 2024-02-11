@@ -18,12 +18,12 @@ if [ ! -f ~/.ssh/config ]; then
   touch ~/.ssh/config
 fi
 
-echo "Host gitlab.com" >> ~/.ssh/config
-echo "  IdentityFile ~/.ssh/id_github"
+echo "Host github.com" >> ~/.ssh/config
+echo "  IdentityFile ~/.ssh/id_github" >> ~/.ssh/config
 
 echo "done setting up ssh key for github"
 echo "NOTE: now you need to add the pub key to github"
 
-cp configs/.gitconfig ~/.config/.gitconfig
+cp configs/GITCONFIG ~/.config/.gitconfig
 
 echo "done setting up .gitconfig"
