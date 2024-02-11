@@ -1,0 +1,23 @@
+layout {
+    tab split_direction="Vertical" {
+        pane split_direction="Horizontal" {
+            pane split_direction="Vertical" {
+                pane command="~/code/c/dynamic-dht/scripts/node1.sh"
+            }
+            pane split_direction="Vertical" {
+                pane command="~/code/c/dynamic-dht/scripts/node2.sh"
+            }
+        }
+        pane split_direction="Horizontal" {
+            pane split_direction="Vertical" {
+                pane command="~/code/c/dynamic-dht/scripts/node3.sh"
+            }
+            pane split_direction="Vertical" {
+                pane command="~/code/c/dynamic-dht/scripts/node4.sh"
+            }
+            pane split_direction="Vertical" {
+                pane command="~/code/c/dynamic-dht/scripts/node5.sh"
+            }
+        }
+    }
+}

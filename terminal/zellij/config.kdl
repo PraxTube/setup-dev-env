@@ -1,8 +1,6 @@
 // If you'd like to override the default keybindings completely, be sure to change "keybinds" to "keybinds clear-defaults=true"
 keybinds clear-defaults=true{
     normal {
-        // uncomment this and adjust key if using copy_on_select=false
-        // bind "Alt c" { Copy; }
     }
     locked {
         bind "Alt l" { SwitchToMode "Normal"; }
@@ -139,7 +137,7 @@ keybinds clear-defaults=true{
         bind "Alt n" { NewPane; }
         bind "Ctrl h" { MoveFocusOrTab "Left"; }
         bind "Ctrl l" { MoveFocusOrTab "Right"; }
-        bind "Ctrl j" "Alt Down" { MoveFocus "Down"; }
+        bind "Ctrl j" { MoveFocus "Down"; }
         bind "Ctrl k" { MoveFocus "Up"; }
         bind "Alt =" "Alt +" { Resize "Increase"; }
         bind "Alt -" { Resize "Decrease"; }
@@ -293,7 +291,7 @@ theme "catppuccin-latte"
 // Path to the default editor to use to edit pane scrollbuffer
 // Default: $EDITOR or $VISUAL
 //
-scrollback_editor "/usr/bin/vim"
+scrollback_editor "nvim"
 
 // When attaching to an existing session with other users,
 // should the session be mirrored (true)

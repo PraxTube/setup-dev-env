@@ -5,13 +5,22 @@
 use ~/.config/nushell/completions/git-completions.nu *
 use ~/.config/nushell/completions/cargo-completions.nu *
 
-alias vim = ~/Downloads/nvim.appimage
+alias vim = nvim
 alias cat = bat
 alias du = dust
 alias top = btm
 alias grep = rg
+alias scc = ~/go/bin/scc
 
-$env.PATH = $env.PATH | prepend $"($env.HOME)/.local/bin"
+alias ndays = ~/Downloads/ndays
+alias setclip = xclip -selection clipboard
+alias ldtk = ~/Downloads/ldtk.AppImage
+
+def ffcut [input, start, duration, output] {
+  ffmpeg -ss $start -i $input -t $duration -c:v libx264 -c:a copy $output
+}
+
+$env.PATH = ($env.PATH | split row (char esep) | append ".local/bin" | append "go/bin")
 
 # For more information on defining custom themes, see
 # https://www.nushell.sh/book/coloring_and_theming.html
