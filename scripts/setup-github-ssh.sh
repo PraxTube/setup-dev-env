@@ -24,6 +24,6 @@ echo "  IdentityFile ~/.ssh/id_github" >> ~/.ssh/config
 echo "done setting up ssh key for github"
 echo "NOTE: now you need to add the pub key to github"
 
-cp configs/GITCONFIG ~/.config/.gitconfig
+cp configs/GITCONFIG ~/.gitconfig
 
 echo "done setting up .gitconfig"
